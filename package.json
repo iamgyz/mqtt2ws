@@ -1,0 +1,35 @@
+{
+  "name": "mqtt2ws",
+  "version": "0.0.1",
+  "description": "The bridge between MQTT and WebSocket",
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/iamgyz/mqtt2ws.git"
+  }, 
+  "main": "./lib/mqtt2ws",
+  "bin": "./bin/mqtt2ws",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./bin/mqtt2ws"
+  },
+  "keywords": [
+    "websocket",
+    "mqtt",
+    "bridge",
+    "ws",
+    "mqtt2ws",
+    "ws2mqtt",
+    "broker",
+    "publish",
+    "subscribe",
+    "pub/sub",
+    "realtime"
+  ],
+  "author": "GYZheng(GYZLAB.COM)",
+  "license": "MIT",
+  "dependencies": {
+    "log4js": "^0.6.26",
+    "mqtt": "^1.3.2",
+    "ws": "^0.7.2"
+  }
+}
